@@ -1,5 +1,14 @@
 # FastAPI
 
+## Important Topics
+- API methods.
+- Router in FastAPI.
+- Middleware in FastAPI.
+- Background Tasks.
+- Dependency Injection.
+- Authentication and Authorization.
+
+---
 ### Install FastAPI and Uvicorn webserver
 ```bash
 $ python -m pip install fastapi
@@ -40,3 +49,6 @@ def index_page():
     return { "message" : "welcome to fastapi basics" }
 
 ```
+
+---
+
